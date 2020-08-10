@@ -1,5 +1,7 @@
 # PasswordChanger
 A python package to generate random passwords for each user and mail them about it. It can generate these numbers periodically.
+## Updates
+In this version a fields called keep in the users file. When set to false this users password doesn't get changed during password generation and enails aren't sent to him/her.
 ## Usage
 Up to this point the feature of periodically creating passwords is not implemented
 1. Download the files
