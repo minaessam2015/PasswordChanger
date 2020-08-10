@@ -7,6 +7,7 @@ Up to this point the feature of periodically creating passwords is not implement
 3. To generate new passwords for each user run "python generate_passwords.py path_to_users_file path_to_run_script_to_be_created (optional)"
 4. run "sudo path_to_run_script_created_ before (default is change_passwords.sh)"
 5. to email users about their new passwords run "python email_users.py path_to_users_file"
+6. If you have a "users" file already with the new passwords you can skip all the steps and start from step 4
 
 ## generator_config.py
 contains the configuration for the program like the mail to use to send the new passwords from and many other configurations
